@@ -44,6 +44,48 @@
         </div>
       </div>
       <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Anak ke</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="anakke">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Status anak dalam keluarga</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="statusanakdalamkeluarga">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Alamat</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="alamat">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Telepon/HP</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="teleponhp">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Di kelas</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="dikelas">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Pada Tanggal</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="padatanggal">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 col-sm-2 control-label">Nama SD/MI </label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="nisn">
+        </div>
+      </div>
+      <div class="form-group">
         <label class="col-sm-2 col-sm-2 control-label">Sifat</label>
         <div class="col-sm-10">
           <div class="form-check-inline">
