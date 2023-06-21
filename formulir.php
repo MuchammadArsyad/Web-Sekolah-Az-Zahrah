@@ -124,7 +124,7 @@
       <div class="form-group">
         <label class="col-sm-2 col-sm-2 control-label">Pekerjaan Ayah</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" name="pekerjaanAyah">
+          <input type="number" class="form-control" name="pekerjaanayah">
         </div>
       </div>
       <div class="form-group">

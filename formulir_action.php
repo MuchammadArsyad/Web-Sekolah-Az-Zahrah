@@ -42,7 +42,7 @@
     $pekerjaan_ibu = $_POST['pekerjaanibu'];
     $pendidikan_terakhir_ayah = $_POST['pendidikanterakhirayah'];
     $pendidikan_terakhir_ibu = $_POST['pendidikanterakhiribu'];
-    $nama_ayah_wali = $_POST['namayahwali'];
+    $nama_ayah_wali = $_POST['namaayahwali'];
     $nama_ibu_wali = $_POST['namaibuwali'];
     $alamat_ayah_wali = $_POST['alamatayahwali'];
     $alamat_ibu_wali = $_POST['alamatibuwali'];
@@ -94,7 +94,18 @@
                             '$nama_ayah_wali','$nama_ibu_wali','$alamat_ayah_wali','$alamat_ibu_wali','$telepon_wali','$pekerjaan_ayah_wali','$pekerjaan_ibu_wali','$pendidikan_terakhir_ayah_wali','$pendidikan_terakhir_ibu_wali')";
 
     if ($koneksi->query($sql) === TRUE) {
-        echo "<script>alert('Input berhasil');window.location = '/Web-Sekolah-Az-Zahrah/formulir.php';</script>";
+        echo "<script>
+        function myFunction() {
+            let text;
+            if (confirm('Press a button!') == true) {
+              text = 'You pressed OK!';
+            } else {
+              text = 'You canceled!';
+            }
+            
+          }
+    
+        </script>";
     } else {
         echo "Error: " . $sql . "<br>" . $koneksi->error;
     }
